@@ -1,0 +1,85 @@
+/* Footer Styles */
+.footer {
+  background: #0a0f1e;
+  color: #fff;
+  padding: 50px 20px 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: left;
+}
+
+.footer h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #00adb5;
+}
+
+
+.footer h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #00adb5;
+  display: inline-block;
+  padding-bottom: 4px;
+  color: #5076d5;
+}
+
+.footer p, 
+.footer a, 
+.footer ul li {
+  font-size: 14px;
+  color: #ddd;
+  text-decoration: none;
+  line-height: 1.8;
+}
+
+.footer a:hover {
+  color: #00adb5;
+}
+
+.footer-links ul,
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li,
+.footer-contact ul li {
+  margin: 6px 0;
+}
+
+/* Social Media Icons */
+.footer-social .social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social .social-icons a img {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.footer-social .social-icons a:hover img {
+  transform: scale(1.15);
+  filter: invert(53%) sepia(98%) saturate(747%) hue-rotate(152deg) brightness(95%) contrast(97%);
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 15px;
+  border-top: 1px solid #333;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
